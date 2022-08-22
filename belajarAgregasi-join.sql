@@ -40,22 +40,22 @@ CREATE TABLE pinjambuku(
 VALUES ('1','12002429','BASIS DATA'),('2','12002439','BULAN'),('3','12002540','BASIS DATA'),
 ('4','12002540','PEMROGRAMAN WEB'),('5','12003010','PBO'),('6','12004000','DILAN 1991');
 
-SELECT siswa.,pinjambuku.
+SELECT siswa.*,pinjambuku.*
 FROM siswa
 JOIN pinjambuku
 ON siswa.nis = pinjambuku.nis;
 
-SELECT siswa.,pinjambuku.
+SELECT siswa.*,pinjambuku.*
 FROM siswa
 RIGHT JOIN pinjambuku
 ON siswa.nis = pinjambuku.nis;
 
-SELECT siswa.,pinjambuku.
+SELECT siswa.*,pinjambuku.*
 FROM siswa
 LEFT JOIN pinjambuku
 ON siswa.nis = pinjambuku.nis;
 
-SELECT siswa.,pinjambuku.
+SELECT siswa.*,pinjambuku.*
 FROM siswa
 LEFT JOIN pinjambuku
 ON siswa.nis = pinjambuku.nis
